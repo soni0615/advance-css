@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --bg-color: #00b7ff;
+            --bg-color-secondary:#6c757d;
+           --content-color:white;
+        }
+
+        .primarybtn {
+            border: none;
+            background-color: var(--bg-color);
+            color: var(--content-color);
+            height: 30px;width: 150px;
+        }
+
+        .secondarybtn {
+            border: none;
+            color: var(--content-color);
+            height: 30px;width: 150px;
+
+            background-color: var(--bg-color-secondary);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Purpose of Using Var() function In CSS:-</h3>
+    <p>In css var() function is used for reusability of code or we have to use the color as many time at multiple places so var function will be helpful.It is easier to maintain the code using var () function in css.We have to write it on root level then we can use at multiples places.It will be helpful for bigger projects.</p>
+    <button class="primarybtn">Primary button</button>
+    <button class="secondarybtn">Secondary button</button>
+</body>
+
+</html>
